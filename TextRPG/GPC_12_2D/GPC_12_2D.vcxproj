@@ -19,15 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo.cpp" />
-    <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="Contents\Contents.cpp" />
+    <ClCompile Include="Contents\ContentsManager.cpp" />
+    <ClCompile Include="Contents\Tutorial\Tutorial.cpp" />
+    <ClCompile Include="Enemy\Enemy.cpp" />
     <ClCompile Include="Initialize.cpp" />
-    <ClCompile Include="Test.cpp" />
-    <ClCompile Include="Test2.cpp" />
+    <ClCompile Include="MainGame\MainGame.cpp" />
+    <ClCompile Include="Parser\parser.cpp" />
+    <ClCompile Include="Player\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Actor.h" />
-    <ClInclude Include="Dummy.h" />
+    <ClInclude Include="Contents\Contents.h" />
+    <ClInclude Include="Contents\ContentsManager.h" />
+    <ClInclude Include="Contents\Tutorial\Tutorial.h" />
+    <ClInclude Include="Enemy\Enemy.h" />
     <ClInclude Include="Engine\Circle.h" />
     <ClInclude Include="Engine\Game.h" />
     <ClInclude Include="Engine\Initialize.h" />
@@ -39,10 +44,9 @@
     <ClInclude Include="Engine\Rendering.h" />
     <ClInclude Include="Engine\Time.h" />
     <ClInclude Include="Engine\Vector.h" />
-    <ClInclude Include="Demo.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="Test.h" />
-    <ClInclude Include="Test2.h" />
+    <ClInclude Include="MainGame\MainGame.h" />
+    <ClInclude Include="Parser\parser.h" />
+    <ClInclude Include="Player\Player.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

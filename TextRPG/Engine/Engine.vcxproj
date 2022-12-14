@@ -169,6 +169,7 @@
     <ClInclude Include="Pipeline.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Quadrangle.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="Rendering.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Shader\Bytecode\Pixel.h" />
@@ -185,6 +186,7 @@
     <ClCompile Include="Pipeline.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Quadrangle.cpp" />
+    <ClCompile Include="Random.cpp" />
     <ClCompile Include="Rendering.cpp" />
     <ClCompile Include="Resource.cpp" />
     <ClCompile Include="Time.cpp" />

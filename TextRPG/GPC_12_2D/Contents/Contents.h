@@ -1,3 +1,14 @@
 #pragma once
 
-//해당 게임에서 사용될 지문을 나타냅니다.
+#include <vector>
+#include <string>
+
+class Contents
+{
+public:
+	std::string getText(int index);
+
+protected:
+	int maxIndex = 0;
+	std::vector<std::string*> textArr;
+};
