@@ -25,7 +25,6 @@
     <ClCompile Include="Enemy\Enemy.cpp" />
     <ClCompile Include="Initialize.cpp" />
     <ClCompile Include="MainGame\MainGame.cpp" />
-    <ClCompile Include="Parser\parser.cpp" />
     <ClCompile Include="Player\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -41,11 +40,11 @@
     <ClInclude Include="Engine\Physics.h" />
     <ClInclude Include="Engine\Point.h" />
     <ClInclude Include="Engine\Quadrangle.h" />
+    <ClInclude Include="Engine\Random.h" />
     <ClInclude Include="Engine\Rendering.h" />
     <ClInclude Include="Engine\Time.h" />
     <ClInclude Include="Engine\Vector.h" />
     <ClInclude Include="MainGame\MainGame.h" />
-    <ClInclude Include="Parser\parser.h" />
     <ClInclude Include="Player\Player.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

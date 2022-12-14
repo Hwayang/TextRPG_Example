@@ -7,8 +7,9 @@ class Contents
 {
 public:
 	std::string getText(int index);
+	int getMaxIndex();
 
 protected:
 	int maxIndex = 0;
-	std::vector<std::string*> textArr;
+	std::vector<std::string> textArr;
 };
